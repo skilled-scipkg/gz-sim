@@ -1,0 +1,366 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "gz-sim",
+  "evidence": {
+    "core_skills": [
+      "gz-sim-build-and-install",
+      "gz-sim-examples-and-tutorials",
+      "gz-sim-getting-started",
+      "gz-sim-inputs-and-modeling",
+      "gz-sim-simulation-workflows",
+      "gz-sim-api-and-scripting"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/gz-sim-build-and-install.md",
+      "skills/.evidence/gz-sim-examples-and-tutorials.md",
+      "skills/.evidence/gz-sim-getting-started.md",
+      "skills/.evidence/gz-sim-inputs-and-modeling.md",
+      "skills/.evidence/gz-sim-simulation-workflows.md",
+      "skills/.evidence/gz-sim-api-and-scripting.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.evidence/memory.md",
+        "skills/gz-sim-api-and-scripting/SKILL.md",
+        "skills/gz-sim-build-and-install/SKILL.md",
+        "skills/gz-sim-examples-and-tutorials/SKILL.md",
+        "skills/gz-sim-getting-started/SKILL.md",
+        "skills/gz-sim-index/SKILL.md",
+        "skills/gz-sim-inputs-and-modeling/SKILL.md",
+        "skills/gz-sim-simulation-workflows/SKILL.md",
+        "skills/gz-sim-test/SKILL.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/gz-sim-api-and-scripting/SKILL.md",
+        "skills/gz-sim-build-and-install/SKILL.md",
+        "skills/gz-sim-examples-and-tutorials/SKILL.md",
+        "skills/gz-sim-getting-started/SKILL.md",
+        "skills/gz-sim-index/SKILL.md",
+        "skills/gz-sim-inputs-and-modeling/SKILL.md",
+        "skills/gz-sim-simulation-workflows/SKILL.md",
+        "skills/gz-sim-test/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/gz-sim-api-and-scripting/SKILL.md",
+        "skills/gz-sim-api-and-scripting/references/doc_map.md",
+        "skills/gz-sim-api-and-scripting/references/source_map.md",
+        "skills/gz-sim-build-and-install/SKILL.md",
+        "skills/gz-sim-build-and-install/references/doc_map.md",
+        "skills/gz-sim-build-and-install/references/source_map.md",
+        "skills/gz-sim-examples-and-tutorials/SKILL.md",
+        "skills/gz-sim-examples-and-tutorials/references/doc_map.md",
+        "skills/gz-sim-examples-and-tutorials/references/source_map.md",
+        "skills/gz-sim-getting-started/SKILL.md",
+        "skills/gz-sim-getting-started/references/doc_map.md",
+        "skills/gz-sim-getting-started/references/source_map.md",
+        "skills/gz-sim-index/SKILL.md",
+        "skills/gz-sim-inputs-and-modeling/SKILL.md",
+        "skills/gz-sim-inputs-and-modeling/references/doc_map.md",
+        "skills/gz-sim-inputs-and-modeling/references/source_map.md",
+        "skills/gz-sim-simulation-workflows/SKILL.md",
+        "skills/gz-sim-simulation-workflows/references/doc_map.md",
+        "skills/gz-sim-simulation-workflows/references/source_map.md",
+        "skills/gz-sim-test/SKILL.md",
+        "skills/gz-sim-test/references/doc_map.md",
+        "skills/gz-sim-test/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/.evidence/memory.md",
+        "skills/gz-sim-api-and-scripting/SKILL.md",
+        "skills/gz-sim-api-and-scripting/references/doc_map.md",
+        "skills/gz-sim-api-and-scripting/references/source_map.md",
+        "skills/gz-sim-build-and-install/SKILL.md",
+        "skills/gz-sim-build-and-install/references/doc_map.md",
+        "skills/gz-sim-build-and-install/references/source_map.md",
+        "skills/gz-sim-examples-and-tutorials/SKILL.md",
+        "skills/gz-sim-examples-and-tutorials/references/doc_map.md",
+        "skills/gz-sim-examples-and-tutorials/references/source_map.md",
+        "skills/gz-sim-getting-started/SKILL.md",
+        "skills/gz-sim-getting-started/references/doc_map.md",
+        "skills/gz-sim-getting-started/references/source_map.md",
+        "skills/gz-sim-index/SKILL.md",
+        "skills/gz-sim-inputs-and-modeling/SKILL.md",
+        "skills/gz-sim-inputs-and-modeling/references/doc_map.md",
+        "skills/gz-sim-inputs-and-modeling/references/source_map.md",
+        "skills/gz-sim-simulation-workflows/SKILL.md",
+        "skills/gz-sim-simulation-workflows/references/doc_map.md",
+        "skills/gz-sim-simulation-workflows/references/source_map.md",
+        "skills/gz-sim-test/SKILL.md",
+        "skills/gz-sim-test/references/doc_map.md",
+        "skills/gz-sim-test/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary user/developer docs are split between doc/ and tutorials/; tutorials are tracked under tutorial_dirs.",
+      "C++ and Python binding sources live in src/, include/, and python/src/.",
+      "Tests are split between test/ (C++) and python/test/ (Python bindings).",
+      "Root-level markdown docs (for example README.md, Migration.md) exist outside docs_dirs and may be added in later enrichment if needed."
+    ],
+    "package_name": "gz-sim",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "include",
+      "python/src",
+      "src"
+    ],
+    "test_dirs": [
+      "python/test",
+      "test"
+    ],
+    "tutorial_dirs": [
+      "examples",
+      "tutorials"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gz-sim-gz-sim",
+  "run_id": "compile_20260304T200715149873Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "gz-sim-api-and-scripting",
+      "gz-sim-build-and-install",
+      "gz-sim-examples-and-tutorials",
+      "gz-sim-getting-started",
+      "gz-sim-index",
+      "gz-sim-inputs-and-modeling",
+      "gz-sim-simulation-workflows",
+      "gz-sim-test"
+    ],
+    "core_skill_ids": [
+      "gz-sim-build-and-install",
+      "gz-sim-examples-and-tutorials",
+      "gz-sim-getting-started",
+      "gz-sim-inputs-and-modeling",
+      "gz-sim-simulation-workflows",
+      "gz-sim-api-and-scripting"
+    ],
+    "deferred_gaps": [
+      "Decide whether to include root-level docs (README.md, Migration.md, Changelog.md) in docs coverage without over-broad docs root.",
+      "Link scattered in-source tests (for example src/*_TEST.cc) into troubleshooting/regression guidance.",
+      "Review whether generated 'gz-sim-test' topic should merge into troubleshooting or advanced-topics in pass 3."
+    ],
+    "goal": "Generate deterministic gz-sim skills in pass 2, then audit/merge weak topic splits in pass 3.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "request triage across build, runtime, API, and troubleshooting",
+          "escalation order: docs -> tutorials/examples -> tests -> source"
+        ],
+        "reason": "Top-level router is required to keep responses docs-first and route to the right workflow skill.",
+        "skill_id": "gz-sim-index",
+        "source_hints": [
+          "doc",
+          "tutorials",
+          "examples",
+          "test",
+          "python/test",
+          "src",
+          "include",
+          "python/src"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "dependency and build configuration flow",
+          "compile/test commands and common build failures"
+        ],
+        "reason": "Installation/build issues are common first-contact tasks and block all downstream workflows.",
+        "skill_id": "gz-sim-build-and-install",
+        "source_hints": [
+          "tutorials/install.md",
+          "README.md",
+          "CMakeLists.txt",
+          "src/CMakeLists.txt",
+          "python/CMakeLists.txt"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "minimal startup path and terminology",
+          "first runnable simulation flow"
+        ],
+        "reason": "A compact onboarding path reduces routing mistakes and repetitive setup questions.",
+        "skill_id": "gz-sim-getting-started",
+        "source_hints": [
+          "tutorials/terminology.md",
+          "tutorials/resources.md",
+          "tutorials/install.md",
+          "examples/standalone"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "launch/run/pause/reset/log workflows",
+          "server configuration and distributed/headless modes"
+        ],
+        "reason": "Run/reset/control workflows are core operational tasks for users and CI scenarios.",
+        "skill_id": "gz-sim-simulation-workflows",
+        "source_hints": [
+          "tutorials/server_config.md",
+          "tutorials/pause_run_simulation.md",
+          "tutorials/reset_simulation.md",
+          "tutorials/log.md",
+          "src/Server.cc",
+          "src/SimulationRunner.cc"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Python binding usage patterns",
+          "plugin extension and scripting entry points"
+        ],
+        "reason": "Python and plugin APIs are high-frequency extension points for scientific workflows.",
+        "skill_id": "gz-sim-api-and-scripting",
+        "source_hints": [
+          "tutorials/python_interfaces.md",
+          "examples/scripts/python_api",
+          "python/src/gz/sim",
+          "src/SystemLoader.cc",
+          "include/gz/sim"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "entity/model/world authoring patterns",
+          "physics/environment parameterization checkpoints"
+        ],
+        "reason": "Model/world configuration and component semantics directly affect simulation correctness.",
+        "skill_id": "gz-sim-inputs-and-modeling",
+        "source_hints": [
+          "tutorials/using_components.md",
+          "tutorials/physics.md",
+          "tutorials/spherical_coordinates.md",
+          "tutorials/theory_buoyancy.md",
+          "src/SdfEntityCreator.cc",
+          "src/components"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "small reproducible recipes from tutorials/examples",
+          "mapping from tutorial topics to executable example folders"
+        ],
+        "reason": "Generator output should be enriched with runnable, minimal examples for fast reproduction.",
+        "skill_id": "gz-sim-examples-and-tutorials",
+        "source_hints": [
+          "tutorials",
+          "examples/scripts",
+          "examples/standalone",
+          "examples/plugin"
+        ]
+      },
+      {
+        "action": "audit",
+        "must_cover": [
+          "determine keep-vs-merge decision using doc count and user impact",
+          "ensure regression/test guidance stays discoverable after merge"
+        ],
+        "reason": "Current topic split includes a narrow test-only bucket that may need merge/rename for clarity.",
+        "skill_id": "gz-sim-test",
+        "source_hints": [
+          "test",
+          "python/test",
+          "tutorials/test_fixture.md"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "gz-sim-test",
+      "gz-sim-simulation-workflows",
+      "gz-sim-inputs-and-modeling",
+      "gz-sim-getting-started",
+      "gz-sim-examples-and-tutorials",
+      "gz-sim-build-and-install"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gz-sim-gz-sim/skills/gz-sim-test/SKILL.md: missing `## High-Signal Playbook` section.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gz-sim-gz-sim/skills/gz-sim-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gz-sim-gz-sim/skills/gz-sim-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gz-sim-gz-sim/skills/gz-sim-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gz-sim-gz-sim/skills/gz-sim-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gz-sim-gz-sim/skills/gz-sim-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "gz-sim-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "gz-sim-index",
+      "gz-sim-build-and-install",
+      "gz-sim-getting-started",
+      "gz-sim-simulation-workflows",
+      "gz-sim-api-and-scripting",
+      "gz-sim-inputs-and-modeling",
+      "gz-sim-examples-and-tutorials",
+      "gz-sim-test"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 8,
+    "source_inventory": {},
+    "source_links_total": 61,
+    "topic_skills": 7,
+    "warnings": []
+  }
+}
